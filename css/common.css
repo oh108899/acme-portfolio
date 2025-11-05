@@ -45,6 +45,17 @@ body{
 .link{
   text-decoration: underline;
 }
+.btn{
+  height: 39px;
+  padding: 0 20px;
+  background: var(--light-gray);
+  color: var(--dark-gray);
+  font-size: calc(var(--body) * 0.875);
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
 /* color */
 .primary{
   color: var(--primary);
