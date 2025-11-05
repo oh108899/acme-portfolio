@@ -2,27 +2,53 @@
 @import url('reset.css');
 
 :root{
+  /* 레이아웃 */
+  --base-unit: 27px;
+  --container: 1272px;
   /* Color styles */
---light-gray: rgba(235, 235, 235, 1);
---medium-gray: rgba(168, 168, 168, 1);
---black: rgba(44, 44, 44, 1);
---dark-gray: rgba(110, 110, 110, 1);
---primary: rgba(154, 199, 91, 1);
---secondary: rgba(85, 118, 44, 1);
---white: rgba(255, 255, 255, 1);
+  --light-gray: rgba(235, 235, 235, 1);
+  --medium-gray: rgba(168, 168, 168, 1);
+  --black: rgba(44, 44, 44, 1);
+  --dark-gray: rgba(110, 110, 110, 1);
+  --primary: rgba(154, 199, 91, 1);
+  --secondary: rgba(85, 118, 44, 1);
+  --white: rgba(255, 255, 255, 1);
 
 /* Text-size styles */
---banner-tt: 54px;
---section-tt: 32px;
---content-tt: 24px;
---body: 16px;
---body-link: 16px;
---section-desc: 18px;
---body-ff: "Open Sans", sans-serif;
+  --body-ff: "Open Sans", sans-serif;
+  --body: 16px;
+  --banner-tt: calc(var(--base-unit) * 2);
+  --section-tt: calc(var(--body) * 2);
+  --content-tt: calc(var(--body) * 1.5);
+  --body-link: var(--body);
+  --section-desc: calc(var(--body) * 1.125);
 
 }
 
 /* typography */
 body{
-  font-family: var(--body-ff);
+  /* font-family: var(--body-ff);
+  font-size: var(--body);
+  line-height: var(--base-unit); */
+  font: var(--body)/var(--base-unit) var(--body-ff);
+}
+.banner_tt{
+  font-size: var(--banner-tt);
+  line-height: var(--banner-tt);
+}
+.section_tt{
+  font-size: var(--section-tt);
+}
+.content_tt{
+  font-size: var(--content-tt);
+}
+.link{
+  text-decoration: underline;
+}
+/* color */
+.primary{
+  color: var(--primary);
+}
+.secondary{
+  color: var(--secondary);
 }
