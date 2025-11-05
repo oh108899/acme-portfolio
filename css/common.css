@@ -1,2 +1,28 @@
 @import url('normalize.css');
 @import url('reset.css');
+
+:root{
+  /* Color styles */
+--light-gray: rgba(235, 235, 235, 1);
+--medium-gray: rgba(168, 168, 168, 1);
+--black: rgba(44, 44, 44, 1);
+--dark-gray: rgba(110, 110, 110, 1);
+--primary: rgba(154, 199, 91, 1);
+--secondary: rgba(85, 118, 44, 1);
+--white: rgba(255, 255, 255, 1);
+
+/* Text-size styles */
+--banner-tt: 54px;
+--section-tt: 32px;
+--content-tt: 24px;
+--body: 16px;
+--body-link: 16px;
+--section-desc: 18px;
+--body-ff: "Open Sans", sans-serif;
+
+}
+
+/* typography */
+body{
+  font-family: var(--body-ff);
+}
