@@ -39,10 +39,10 @@
 }
 .hidden{
   position: absolute;
-  left: 0;
-  top:-99999em;
-  width: 0;
-  height: 0;
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
   overflow: hidden;
 }
 
@@ -169,11 +169,5 @@ nav ul li:first-of-type a{
 }
 
 
-.logo a{
-  background: url(/images/logo.png) no-repeat;
-  display: inline-block;
-  width: 161px;
-  height: 54px;
-  text-indent: -99999em;
-}
+
 
