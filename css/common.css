@@ -88,7 +88,44 @@ form{
   width: 350px;
   margin: 0 auto;
 }
-.field input{
+.field{
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
   background: var(--white);
-  
+  height: calc(var(--base-unit) * 2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--black);
+  border-radius: 3px;
+}
+.field:focus-within{
+  box-shadow: inset 0 0 15px rgba(90, 1, 255, 0.9);
+}
+.field span{
+  color: var(--medium-gray);
+}
+.field input{
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+  outline: none;
+}
+.field input::placeholder{
+  color: var(--medium-gray);
+}
+.button{
+  width: 100%;
+  box-sizing: border-box;
+  height: calc(var(--base-unit) * 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(var(--body) * 1.125);
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid var(--white);
+  border-radius: 3px;
+  color: var(--white);
 }
