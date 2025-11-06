@@ -137,3 +137,43 @@ form{
   border-radius: 3px;
   color: var(--white);
 }
+
+
+/* HEADER */
+header{
+  background-color: var(--white);
+  padding: var(--base-unit) 0;
+  box-shadow:0 1px 5px rgba(0, 0, 0, 0.15)
+}
+header nav{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+nav ul li:first-of-type{
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  gap: 10px;
+  color: var(--light-gray);
+}
+nav ul li:first-of-type a{
+  color: var(--black);
+}
+
+
+.logo a{
+  background: url(/images/logo.png) no-repeat;
+  display: inline-block;
+  width: 161px;
+  height: 54px;
+  text-indent: -99999em;
+}
+
