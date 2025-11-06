@@ -1,0 +1,15 @@
+.banner .section_tt{
+  color:var(--white);
+}
+.banner .titles{
+  display:flex;
+  flex-direction: column;
+  gap: var(--base-unit);
+  align-items: center;
+  text-align: center;
+}
+.banner{
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base-unit) * 2);
+}
