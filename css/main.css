@@ -6,10 +6,33 @@
   flex-direction: column;
   gap: var(--base-unit);
   align-items: center;
-  text-align: center;
+ 
 }
 .banner{
   display: flex;
   flex-direction: column;
   gap: calc(var(--base-unit) * 2);
+  align-items: center;
+}
+.feature_list{
+  display: flex;
+  gap: calc(var(--body) * 1.5);
+}
+.feature_list li{
+  display: flex;
+  flex-direction: column;
+  gap: var(--base-unit);
+  justify-content: center;
+  align-items: center;
+}
+.feature_list .icon{
+  width: 108px;
+  height: 108px;
+  border: 1px solid #439CCF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #439CCF;
+  font-size: 36px;
 }
