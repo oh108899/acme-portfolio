@@ -180,6 +180,32 @@ nav ul li:first-of-type a{
   color: var(--black);
 }
 
+/* footer */
+.cta{
+  background: #292C2E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: calc(var(--base-unit) * 2);
+}
+.cta .titles{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--base-unit);
+}
+.cta .titles .section_tt{
+  color: var(--white);
+}
+.cta .titles .section_desc{
+  color: var(--medium-gray);
+}
 
-
-
+.copyright{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--base-unit);
+}
