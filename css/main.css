@@ -36,3 +36,47 @@
   color: #439CCF;
   font-size: 36px;
 }
+/* testimonial */
+.testimonial .wrapper{
+  overflow: hidden;
+  position: relative;
+}
+.testimonial_list{
+  transition: 0.5s;
+  width: calc(var(--container) * 3);
+  display: flex;
+}
+
+.testimonial_list li{
+  text-align: center;
+  width: 100%;
+}
+
+.testimonial_list li p{
+  font-size: 24px;
+  line-height: 36px;
+  color: #489dcd;
+  font-weight: 300;
+  font-style: italic;
+  width: 55%;
+  margin: 0 auto 27px;
+}
+.testimonial_list li small{
+  color: #489dcd;
+}
+
+.wrapper button{
+  position: absolute;
+  top:50%;
+  translate:0 -50%;
+  color: var(--light-gray);
+}
+.wrapper button span{
+  font-size: 45px;
+}
+.wrapper .prev{
+  left: 0;
+}
+.wrapper .next{
+  right: 0;
+}
