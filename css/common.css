@@ -27,6 +27,10 @@
 
 }
 /* 레이아웃 */
+.container{
+  width: var(--container);
+  margin: 0 auto;
+}
 .big_pd{
   padding: calc(var(--base-unit) * 3) 0;
 }
@@ -72,10 +76,14 @@ body{
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  border-radius: 3px;
 }
 /* color */
 .primary{
   color: var(--primary);
+}
+.primary_bg{
+  background-color: var(--primary);
 }
 .secondary{
   color: var(--secondary);
