@@ -31,6 +31,13 @@
   width: var(--container);
   margin: 0 auto;
 }
+.layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(var(--base-unit) * 2);
+  text-align: center;
+}
 .big_pd{
   padding: calc(var(--base-unit) * 3) 0;
 }

@@ -25,12 +25,7 @@
   color:var(--white);
 }
 
-.banner{
-  display: flex;
-  flex-direction: column;
-  gap: calc(var(--base-unit) * 2);
-  align-items: center;
-}
+
 
 /* testimonial */
 
