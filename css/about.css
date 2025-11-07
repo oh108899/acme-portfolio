@@ -26,19 +26,20 @@
 .question span{
   font-size: 18px;
   opacity: 40%;
+  transition: 0.5s;
 }
 .answer{
   font-size: var(--body);
   padding: 20px;
   display:none;
 }
-.qna_list li.active .answer{
-  display: block;
-}
 .qna_list li.active .question{
   font-weight: bold;
 }
+.qna_list li.active .answer{
+  display: block;
+}
 .qna_list li.active .question span{
   opacity: 1;
-  transform: rotate(180deg)
+  transform: rotate(180deg);
 }
