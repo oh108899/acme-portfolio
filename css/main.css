@@ -21,6 +21,17 @@
   color: #439CCF;
   font-size: 36px;
 }
+.banner .section_tt{
+  color:var(--white);
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base-unit) * 2);
+  align-items: center;
+}
+
 /* testimonial */
 
 

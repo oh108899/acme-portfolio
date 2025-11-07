@@ -62,13 +62,25 @@ body{
   line-height: var(--banner-tt);
   color:#3A99D8;
   text-transform: uppercase;
+  text-align: center;
 }
 .section_tt{
   font-size: var(--section-tt);
   font-weight: 300;
+  text-align: center;
 }
 .content_tt{
   font-size: var(--content-tt);
+  text-align: center;
+}
+.section_desc{
+  text-align: center;
+}
+.titles{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap: var(--base-unit);
 }
 .link{
   text-decoration: underline;
@@ -180,24 +192,6 @@ nav ul li:first-of-type a{
   color: var(--black);
 }
 
-/* 배너 */
-.banner .section_tt{
-  color:var(--white);
-}
-.banner .titles{
-  display:flex;
-  flex-direction: column;
-  gap: var(--base-unit);
-  align-items: center;
- 
-}
-.banner{
-  display: flex;
-  flex-direction: column;
-  gap: calc(var(--base-unit) * 2);
-  align-items: center;
-}
-
 /* footer */
 .cta{
   background: #292C2E;
@@ -206,12 +200,7 @@ nav ul li:first-of-type a{
   align-items: center;
   gap: calc(var(--base-unit) * 2);
 }
-.cta .titles{
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  gap: var(--base-unit);
-}
+
 .cta .titles .section_tt{
   color: var(--white);
 }
