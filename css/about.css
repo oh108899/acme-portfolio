@@ -14,7 +14,7 @@
 .qna_list li + li{
   margin-top: 1px;
 }
-.qna_list h3{
+.qna_list .question{
   background-color: var(--light-gray);
   display: flex;
   justify-content: space-between;
@@ -23,9 +23,22 @@
   align-items: center;
   font-size: 18px;
 }
-.qna_list h3 span{
+.question span{
   font-size: 18px;
+  opacity: 40%;
 }
 .answer{
   font-size: var(--body);
+  padding: 20px;
+  display:none;
+}
+.qna_list li.active .answer{
+  display: block;
+}
+.qna_list li.active .question{
+  font-weight: bold;
+}
+.qna_list li.active .question span{
+  opacity: 1;
+  transform: rotate(180deg)
 }
