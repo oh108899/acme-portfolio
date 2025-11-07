@@ -1,8 +1,4 @@
 
-.feature_list{
-  display: flex;
-  gap: calc(var(--body) * 1.5);
-}
 .feature_list li{
   display: flex;
   flex-direction: column;

@@ -27,10 +27,6 @@
 
 }
 /* 레이아웃 */
-.container{
-  width: var(--container);
-  margin: 0 auto;
-}
 .layout{
   display: flex;
   flex-direction: column;
@@ -174,11 +170,6 @@ header{
   background-color: var(--white);
   padding: var(--base-unit) 0;
   box-shadow:0 1px 5px rgba(0, 0, 0, 0.15)
-}
-header nav{
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
 }
 nav ul{
   display: flex;
