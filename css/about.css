@@ -21,4 +21,11 @@
   height: calc(var(--base-unit) * 2);
   padding: 0 20px;
   align-items: center;
+  font-size: 18px;
+}
+.qna_list h3 span{
+  font-size: 18px;
+}
+.answer{
+  font-size: var(--body);
 }
