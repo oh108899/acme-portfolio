@@ -219,6 +219,7 @@ nav ul li:first-of-type a{
 .wrapper{
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 .slide_container{
   transition: 0.5s;
