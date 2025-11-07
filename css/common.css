@@ -185,14 +185,12 @@ nav ul li:first-of-type a{
   background: #292C2E;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: calc(var(--base-unit) * 2);
 }
 .cta .titles{
   display: flex;
   flex-direction:column;
-  justify-content: center;
   align-items: center;
   gap: var(--base-unit);
 }
